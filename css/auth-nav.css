@@ -1,0 +1,14 @@
+.auth-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.auth-nav__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.auth-nav__icon {
+  fill: currentColor;
+}
+/*# sourceMappingURL=auth-nav.css.map */
