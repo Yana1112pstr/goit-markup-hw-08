@@ -7,17 +7,14 @@
     display: flex;
 }
 
-.hero__section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .hero__title {
-
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 44px;
     line-height: 1.61; 
     text-transform: uppercase;
     color: var(--alt-title-color);

@@ -74,6 +74,7 @@ p {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  background-color: red;
 }
 
 @media screen and (min-width: 480px) {
@@ -81,18 +82,21 @@ p {
     max-width: 480px;
     margin-left: auto;
     margin-right: auto;
+    background-color: yellow;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    background-color: sienna;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    background-color: teal;
   }
 }
 
@@ -386,31 +390,14 @@ textarea {
   max-width: 1600px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 118px;
-  padding-bottom: 118px;
+  padding: 180px 60px;
+  display: flex;
 }
 
-@media screen and (min-width: 480px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
+.hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__title {
@@ -420,13 +407,6 @@ textarea {
   line-height: 1.61;
   text-transform: uppercase;
   color: var(--alt-title-color);
-}
-
-@media screen and (min-width: 1200px) {
-  .hero__title {
-    font-size: 44px;
-    line-height: 1.36;
-  }
 }
 
 .work {
