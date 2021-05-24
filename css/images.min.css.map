@@ -1,8 +1,8 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,GAAG,AAAC,CACA,OAAO,CAAE,KAAK,CACd,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACb",
     "sources": [
-        "../sass/base/images.scss"
+        "../sass/components/images.scss"
     ],
     "names": [],
     "file": "images.min.css"

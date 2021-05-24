@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,SAAS,AAAC,CACN,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACnB,eAAe,CAAE,QAAQ,CAC5B,AAED,AAAA,eAAe,AAAA,IAAK,CAAA,WAAW,CAAE,CAC7B,YAAY,CAAE,IAAI,CACrB,AAED,AAAA,eAAe,AAAC,CACZ,IAAI,CAAE,YAAY,CACrB",
     "sources": [
-        "../sass/components/auth-nav.scss"
+        "../sass/layout/auth-nav.scss"
     ],
     "names": [],
     "file": "auth-nav.min.css"

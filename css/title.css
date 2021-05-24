@@ -1,1 +1,4 @@
-/* No CSS *//*# sourceMappingURL=title.css.map */
+.title {
+  color: var(--title-color);
+}
+/*# sourceMappingURL=title.css.map */

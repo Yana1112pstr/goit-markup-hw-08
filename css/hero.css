@@ -1,0 +1,24 @@
+.hero {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg/bg-images.jpg);
+  max-width: 1600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 180px 60px;
+  display: flex;
+}
+
+.hero__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-transform: uppercase;
+  color: var(--alt-title-color);
+}
+/*# sourceMappingURL=hero.css.map */

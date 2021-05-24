@@ -18,6 +18,10 @@
   color: var(--title-color);
 }
 
+.logo__footer {
+  margin-bottom: 20px;
+}
+
 .logo__footer--color {
   color: var(--alt-title-color);
 }
