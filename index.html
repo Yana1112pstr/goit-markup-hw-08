@@ -13,7 +13,7 @@
 </head>
 <body>
      <!--Шапка профиля-->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container ">
             <div class="header__section">
                 <a class="logo logo__header" href="./index.html">Web<span class="logo__header--color">Studio</span></a>    
@@ -42,15 +42,15 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
     <!--Основной контент-->
     <main>
         <!--Заголовок-->
         <section class="hero"> 
             <div class="container">
                 <div class="hero__section">
-                <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button class="btn hero__btn" type="button" data-modal-open>Заказать услугу</button> 
+                    <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+                    <button class="btn hero__btn" type="button" data-modal-open>Заказать услугу</button> 
                 </div>
             </div>
         </section>
@@ -60,7 +60,7 @@
                 <ul class="list work__list">
                     <li class="work__item">
                         <div class="work__icon">
-                            <svg width="65" height="70">
+                            <svg class="work__svg" width="65" height="70">
                                 <use href="./images/icons/sprite.svg#icon-details"></use>
                             </svg>
                         </div>
@@ -69,7 +69,7 @@
                     </li>
                     <li class="work__item">
                         <div class="work__icon">
-                            <svg width="67" height="70">
+                            <svg class="work__svg" width="67" height="70">
                                 <use href="./images/icons/sprite.svg#icon-clock"></use>
                             </svg>
                         </div>
@@ -78,7 +78,7 @@
                     </li>
                     <li class="work__item">
                         <div class="work__icon">
-                            <svg width="70" height="54">
+                            <svg class="work__svg" width="70" height="54">
                                 <use href="./images/icons/sprite.svg#icon-diagram"></use>
                             </svg>
                         </div>
@@ -87,7 +87,7 @@
                     </li>
                     <li class="work__item">
                         <div class="work__icon">
-                            <svg width="70" height="70">
+                            <svg class="work__svg" width="70" height="70">
                                 <use href="./images/icons/sprite.svg#icon-astronaut"></use>
                             </svg>
                         </div>
@@ -333,7 +333,7 @@
     <!--Футер контакты-->
     <footer class="footer">
         <div class="container">
-            <div class="footer__section">
+            <div class="footer__box">
                 <div class="footer__container">
                     <a class="logo logo__footer" href="index.html">Web<span class="logo__footer--color">Studio</span></a>
                     <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
@@ -375,20 +375,20 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer__section">
                     <h3 class="footer__title">Подпишитесь на рассылку</h3>
                     <form class="footer__form">
-                        <label >
+                        <label>
                             <input class="footer__input" type="email" name="email" placeholder="E-mail" />
                         </label>
                         <button class="btn footer__btn" type="submit">Подписаться
-                            <svg class="footer__icon">
+                            <svg class="footer__icon-btn">
                                 <use href="./images/icons/sprite.svg#icon-send"></use>
                             </svg>
                         </button>
                     </form>
                 </div>
-            </div>
+            </div>        
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

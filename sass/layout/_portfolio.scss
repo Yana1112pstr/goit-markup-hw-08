@@ -1,7 +1,11 @@
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--three-bg);
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px; 
+    }
 }
 
 .portfolio__title {
@@ -10,8 +14,10 @@
 
 .portfolio__list {
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+
+    // justify-content: center;
+    // margin-bottom: 50px;
 }
 
 .portfolio__item:not(:last-child) {
@@ -24,8 +30,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    cursor: pointer;
-
+    
     color: var(--title-color);
     background: #F5F4FA;
 
@@ -40,5 +45,8 @@
         background-color: var(--accent-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     }    
+    @media screen and (min-width: 1200px) {
+        cursor: pointer;
+    }
 }
 

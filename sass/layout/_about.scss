@@ -1,6 +1,8 @@
 .about {
+    @media screen and (max-width: 1198px) {
+        display: none;
+    }
     background-color:var(--three-bg);
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -14,7 +16,6 @@
 
 .about__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
 
