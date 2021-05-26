@@ -10,6 +10,9 @@
 }
 
 .header__nav {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
     display: flex;
     justify-content: space-between;
     width: 930px;
