@@ -1,20 +1,24 @@
 .logo {
     display: flex;
-
     font-family: var(--logo-font);
     font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.16;
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        line-height: 1.19;
+    }
     text-decoration: none;
 
     color: var(--accent-color);
     }
 
 .logo__header {
-    display: block;
+    @media screen and (min-width: 1200px) {
     margin-top: 24px;
     margin-right: 93px;    
     margin-bottom: 25px;
+    }
 }
     
 .logo__header--color {
