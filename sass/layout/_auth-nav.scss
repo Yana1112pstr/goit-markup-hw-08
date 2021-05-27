@@ -1,11 +1,23 @@
 .auth-nav {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    @media screen and (min-width: 768px) {
+        flex-direction: column;
+    }
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
 }
 
 .auth-nav__item:not(:last-child) {
-    margin-right: 30px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
+    @media screen and (min-width: 1200px)  {
+        margin-bottom: 0;
+        margin-right: 30px;    
+    }
 }
 
 .auth-nav__icon {
