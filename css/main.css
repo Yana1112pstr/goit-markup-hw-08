@@ -585,11 +585,14 @@ textarea {
 }
 
 .hero {
+  text-align: center;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/hero/Hero_mobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 118px;
   padding-bottom: 118px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
