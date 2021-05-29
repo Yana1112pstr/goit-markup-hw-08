@@ -28,6 +28,10 @@
     @media screen and (min-width: 768px) {
         display: none;
     }
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
 }
 
 .mobile-menu__btn--close {
@@ -37,10 +41,6 @@
     right: 25px;
 }
 
-// .mobile-menu__svg-close {
-
-// }
-
 .mobile-menu__flex {
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@
     
     height: 100%;
 }
+
 
 .mobile-menu__nav-item:not(:last-child) {
     margin-bottom: 32px;

@@ -493,6 +493,10 @@ textarea {
   }
 }
 
+.mobile-menu__btn:hover, .mobile-menu__btn:focus {
+  fill: var(--accent-color);
+}
+
 .mobile-menu__btn--close {
   z-index: 3;
   position: absolute;
