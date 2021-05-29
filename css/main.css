@@ -592,8 +592,7 @@ textarea {
   background-repeat: no-repeat;
   padding-top: 118px;
   padding-bottom: 118px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -1069,6 +1068,8 @@ textarea {
 }
 
 .gallery__item {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
   transition: box-shadow var(--animation);
 }
@@ -1129,6 +1130,7 @@ textarea {
 }
 
 .gallery-text {
+  flex-grow: 1;
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
 }

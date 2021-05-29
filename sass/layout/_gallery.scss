@@ -11,6 +11,8 @@
 }
 
 .gallery__item {
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
     @media screen and (min-width: 480px) {
         width: 100%;
@@ -67,6 +69,7 @@
 }
 
 .gallery-text {
+    flex-grow: 1;
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
