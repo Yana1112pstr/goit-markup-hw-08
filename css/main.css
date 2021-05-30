@@ -508,7 +508,6 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .mobile-menu__nav-item:not(:last-child) {
@@ -1128,9 +1127,15 @@ textarea {
 }
 
 .gallery__description {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.56;
-  color: #FFFFFF;
+  color: var(--alt-title-color);
+}
+
+@media screen and (min-width: 480px) {
+  .gallery__description {
+    font-size: 18px;
+  }
 }
 
 .gallery-text {

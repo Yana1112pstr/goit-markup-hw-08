@@ -63,9 +63,12 @@
 }
 
 .gallery__description {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.56;
-    color: #FFFFFF;
+    color: var(--alt-title-color);
+    @media screen and (min-width: 480px) {
+        font-size: 18px;
+    }
 }
 
 .gallery-text {
